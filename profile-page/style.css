@@ -11,58 +11,78 @@
  /* OUTLINE */
 .container{
     display: flex;
-    width:800px;
+    width:900px;
     height: 650px;
     background-color: #95BBEA;
     margin: auto;
     align-items: center;
 }
-.name-photo-page{
-    background-color: #FFFFFF;
-    width: 400px;
+.photo-page{
+    width:  450px;
     height: 150px;
-    border: 1px solid #FFFFFF;
-    border-radius: 15px;
-    position: relative;
-    top: -200px;
-    left: 20px;
-    margin: auto;
-
     
-
-}
-.name-loc-page{
-    position: relative;
-    width: 350px;
-    text-align: center;
-    padding-top: 40px;
-     
 }
 .pphoto{
-    max-width: 150px;
+    width: 120px;
     height: 150px;
     float: left;
     border: 1px solid inherit;
     border-radius: 15px 0 0 15px;
 }
-        /*SKILLS PAGE */
+.photo-page-box{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    position: relative;
+    top: -200px;
+    left: 20px;
+    width: 450px;
+    height: 150px;
+   
+    
 
-.skills-page{
+}
+.loc-page-box{
+    position: relative;
+    width: 450px;
+    height: 150px;
+    text-align:center;
+    padding-top: 35px ;
+    
+     
+}
+h1{
+    color: #565656;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-weight: lighter;
+    color: #565656;
+}
+        /*SKILLS PAGE */
+.con-skills{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    width: auto;
+    width: 450px;
     height: 350px;
     background-color: #FFFFFF;
     color: #565656;
     text-align: left;
-    padding-left: 40px;
-    padding-top: 30px;
     border: 1px solid #FFFFFF;
     border-radius: 15px;
     text-decoration-color: #FFFFFF;
     position: relative;
-    top: 100px;
-    left: -330px;
+    top: 80px;
+    left: -430px;
+
+
+}
+
+.skills-page{
+    width: 450px;
+    padding-left: 20px;
+    padding-top: 30px;
    
 }
 
@@ -72,7 +92,7 @@
 }
 .skills-page ul{
   
-   width: 310px;
+   width: 320px;
 }
 
 
@@ -80,34 +100,38 @@
 .brline{
     border: none;
     border-top: 1.5px solid #d5d9df;
-    max-width: 350px;
+    max-width: 410px;
     position: relative;
-    left: -20px;
+    left: 20px;
 }
 
 
 
 .skills-page-2 {
     position: relative;
-    min-width: 300px;
-    height: 100px;
-    align-items: center;
+    width: 350px;
+    height: 120px;
+    padding-left: 10px;
+    
+    
+    margin-left: 10px;
 }
 
 
 .job{
+    padding: 5px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     width: auto;
-    height: 25%;
+    height: 25px;
     background-color: #d8dde4;
     border: 2px solid #d5d9df;
-    border-radius: 5px;
-    padding: 5px 10px ;
-    margin: 5px;
-    position: relative;
+    border-radius: 10px;
+    margin: 3px;
     display: inline-block;
-    left: -20px;
+    
+    
+       
 }
 
 /*social page*/
@@ -115,58 +139,46 @@
 
 .social-page{
     width: 200px;
-    height: 445px;
+    height: 530px;
     display: block;
     position: relative;
-    left: -200px;
-    top: -53px;
+    left: -400px;
+    top: -10px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
 }
 
-.like{
+.socials{
     text-align: center;
     color:#565656;
     font-size: 30px;
     width: 200px;
-    height: 33.333%;
-    background-color: #FFFFFF;
-    border-radius: 15px 15px 0 0;
-    padding-top: 40px;
+    height: 124px;
+    padding-top: 50px;
     
-}
-
-.view{
-    text-align: center;
-    color: #565656;
-    font-size: 20px;
-    width: 200px;
-    height: 33.333%;
-    background-color: #FFFFFF;
-    padding-top: 40px;
     
 }
 
 
-.comment{
-    text-align: center;
-    color: #565656;
-    font-size: 20px;
-    width: 200px;
-    height: 33.333%;
-    background-color: #FFFFFF;
-    border-radius: 0 0 15px 15px;
-    padding-top: 40px;
-}
+
 .brline2{
     border: none;
-    border-top: 2px solid #d5d9df;
-    width: 200px;
+    border-top: 1px solid #d5d9df;
+    width: 180px;
     position: relative;
-   
-    
+    left: 10px;
+    background-color: #FFFFFF;
 }
 
 
 .social-page .like p{
     font-size: 20px;
     margin-top: 20px;
+}
+
+
+h4{
+    font-weight:lighter;
+    font-size: 20px;
 }

@@ -10,42 +10,48 @@
 
  /* OUTLINE */
 .container{
-    display: inline-block;
-    width:1000px;
-    height: 600px;
+    display: flex;
+    width:800px;
+    height: 650px;
     background-color: #95BBEA;
     margin: auto;
-    
+    align-items: center;
 }
 .name-photo-page{
     background-color: #FFFFFF;
-    max-width: 400px;
+    width: 400px;
     height: 150px;
     border: 1px solid #FFFFFF;
     border-radius: 15px;
-    
+    position: relative;
+    top: -200px;
+    left: 20px;
+    margin: auto;
+
     
 
 }
 .name-loc-page{
     position: relative;
-    margin-top: 40px;
+    width: 350px;
     text-align: center;
-    
-    
+    padding-top: 40px;
+     
 }
 .pphoto{
     max-width: 150px;
     height: 150px;
     float: left;
+    border: 1px solid inherit;
+    border-radius: 15px 0 0 15px;
 }
         /*SKILLS PAGE */
 
 .skills-page{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    max-width: 360px;
-    height: 300px;
+    width: auto;
+    height: 350px;
     background-color: #FFFFFF;
     color: #565656;
     text-align: left;
@@ -53,10 +59,11 @@
     padding-top: 30px;
     border: 1px solid #FFFFFF;
     border-radius: 15px;
-    position: relative;
-    margin-top: 20px;
     text-decoration-color: #FFFFFF;
-    
+    position: relative;
+    top: 100px;
+    left: -330px;
+   
 }
 
 .skills-page ul li {
@@ -64,8 +71,8 @@
 
 }
 .skills-page ul{
-   margin-left: -20px;
-   margin-top: -10px;
+  
+   width: 310px;
 }
 
 
@@ -107,16 +114,12 @@
 
 
 .social-page{
-    
     width: 200px;
-    height: 380px;
+    height: 445px;
     display: block;
-    left: 450px;
     position: relative;
-    top: -505px;
-    
-    
-  
+    left: -200px;
+    top: -53px;
 }
 
 .like{
